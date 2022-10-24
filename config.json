@@ -1,11 +1,11 @@
 ﻿    {
-       "IntegrationID": "game-name-integration",
+       "IntegrationID": "uncharted-legacy-of-thieves-collection-integration",
        "Version": "1.0",
-       "DisplayName": "Game Name",
-       "DisplayIcon": "assets\\icon\\icon-small.png",
-       "DisplayImage": "assets\\art\\en\\art-cover-vertical.png",
+       "DisplayName": "Uncharted Legacy of Thieves Collection",
+       "DisplayIcon": "assets\\art\\icon-small.png",
+       "DisplayImage": "assets\\art\\local-art\\english\\art-cover-vertical.png",
        "Author": {
-       "Name": "Integration Author",
+       "Name": "John Logostini",
        "Role": "Integration Creator"
     },
        "ModCompatibilityVersion": "1.0",
@@ -62,9 +62,9 @@
     },
     {
        "ValidationType": "PathExists",
-       "ErrorMessage": "The path entered did not contain the required executable ( Game.exe ) check that you are using a legitimate copy",
+       "ErrorMessage": "The path entered did not contain the required executable ( u4.exe ) check that you are using a legitimate copy",
        "AllowedPathSuffixes": [
-       "Game.exe"
+       "u4.exe"
   ]
     },
     {
@@ -84,8 +84,6 @@
        "DeleteWhenComplete": true,
        "UseAutoMapping": false,
        "TargetFiles": [
-       "[Game]\\GAME0.DAT",
-       "[Game]\\GAME1.DAT"
       ]
     }
   ]
